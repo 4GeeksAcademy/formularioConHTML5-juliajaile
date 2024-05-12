@@ -1,0 +1,138 @@
+body{
+    background-color: black;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.container-payment-form {
+    background-color: white;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    padding: 40px;
+    margin-top:0px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: -0.2rem;
+ 
+}
+
+label {
+    font-size:12px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+input {
+    font-size: 13px;
+}
+
+.header {
+    padding: 10px;
+    background: #F7F7F7;
+  
+}
+
+.alert {
+    width: auto;
+    height: 40%;
+    padding: 6px;
+    margin-top: 10px;
+    border-radius: 4px;
+    background-color: #F8D7DA;
+    border:none;
+}
+
+.fields-missing {
+    font-size: 13px;
+    margin: 2px 0 2rem 3px;
+    font-weight: 500;
+    color:#721C23;
+}
+
+.payment-methods {
+    display: flex;
+    margin-top: -30px;
+}
+
+.card {
+    --bs-card-border-width: none;
+}
+
+.CVC {
+    margin-left: -24px;
+}
+
+.amount {
+    margin-left: 20px;
+
+}
+
+.name,
+.adress-info,
+.charging-methods {
+    margin-top: 10px;
+}
+
+
+.cards-addmitted {
+    margin-top: 4px;
+    background-color: #6C757D;
+    width: 200px;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+#mastercard,
+#visa,
+#diners-club,
+#paypal {
+    margin-right:10px;
+    color: white;
+  
+}
+
+
+input[type=radio] {
+    width: 8px;
+    height: 8px;
+    margin-left:9px;
+    vertical-align: middle;
+    background-color: #DEDEDE;
+}
+
+
+.message {
+    margin-bottom: 40px;
+}
+
+.message-footer {
+    font-size: 10px;
+    color: grey;
+}
+
+
+.footer {
+    background-color: #F7F7F7;
+    --bs-gutter-x: 0;
+    height: 50px;
+    margin-top: -22px;
+}
+
+.btn {
+    float:right;
+    margin-top: 10px;
+}
+
+.btn-primary {
+    margin-left: 4px;
+    margin-right: 10px;
+}
+
+
+
+
